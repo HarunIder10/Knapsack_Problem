@@ -22,7 +22,7 @@ int knapsack(int capacity, vector<int>& returns, vector<int>& risks) {
 }
 
 int main() {
-    int budget = 50;
+    int budget = 30;
     vector<int> returns = {10, 20, 30, 40};
     vector<int> risks = {5, 10, 15, 20};
 
