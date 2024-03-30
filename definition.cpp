@@ -34,14 +34,9 @@ int knapsack(int capacity, vector<int>& weights, vector<int>& values) {
 
 int main() {
     // Test verileriyle knapsack fonksiyonunu çağır ve sonuçları yazdır
-    int capacity = 10;
-    vector<int> values = {1, 4, 8, 5};
-    vector<int> weights = {3, 3, 5, 6};
-    cout << "Maximum profit for capacity " << capacity << ": " << knapsack(capacity, weights, values) << endl;
-
-    capacity = 7;
-    values = {2, 2, 4, 5, 3};
-    weights = {3, 1, 3, 4, 2};
+    int capacity = 5;
+    vector<int> values = {100, 20, 60, 40};
+    vector<int> weights = {3, 2, 4, 1};
     cout << "Maximum profit for capacity " << capacity << ": " << knapsack(capacity, weights, values) << endl;
 
     return 0;
